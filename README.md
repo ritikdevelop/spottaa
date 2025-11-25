@@ -24,7 +24,7 @@ Spottaa is a modern event discovery and management platform that allows users to
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/spottaa.git
+git clone https://github.com/ritikdevelop/spottaa.git
 cd spottaa
 ```
 
