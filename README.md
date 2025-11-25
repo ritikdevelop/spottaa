@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spottaa
+
+Spottaa is a modern event discovery and management platform that allows users to discover, create, and attend amazing events. Whether you’re hosting or attending, Spottaa makes every event memorable. Join our community and explore a variety of events tailored to your interests.
+
+## Features
+
+- Discover events in your area or online
+- Create and manage your own events easily
+- User authentication and account management powered by Clerk
+- Interactive event exploration and registration
+- QR code scanning for event check-ins
+- Responsive and beautiful UI built with Radix UI and TailwindCSS
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js (version 16 or higher recommended)
+- npm (comes with Node.js)
+- A Convex backend account for serverless backend hosting (see Convex documentation)
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/spottaa.git
+cd spottaa
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+### Running the Development Server
+
+Start the Next.js development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see Spottaa in action.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To build the application for production:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To start the production server after building:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- `app/` - Next.js app directory containing pages, layouts, and components organized by route groups.
+- `components/` - Reusable UI components and widgets.
+- `convex/` - Serverless backend functions and schema implemented with Convex.
+- `hooks/` - Custom React hooks for business logic and state management.
+- `lib/` - Utility functions and helpers.
+- `public/` - Static assets like images and icons.
+- `styles/` - Global and component-specific styles (mostly TailwindCSS).
+- Configuration files like `next.config.mjs`, `tailwind.config.js`, and ESLint configs for development environment setup.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technologies Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Next.js](https://nextjs.org/) - React framework for server-side rendering and static site generation.
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces.
+- [Convex](https://convex.dev/) - Backend as a service for real-time data.
+- [Clerk](https://clerk.dev/) - User authentication and management.
+- [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework.
+- [Radix UI](https://radix-ui.com/) - Accessible React UI components.
+- [React Hook Form](https://react-hook-form.com/) - Form validation and management.
+
+## Contribution
+
+Contributions are welcome! Feel free to submit issues, open pull requests, or suggest improvements.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+---
+
+Feel free to explore and enhance Spottaa to fit your event discovery needs!
