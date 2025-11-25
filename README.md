@@ -34,6 +34,18 @@ cd spottaa
 npm install
 ```
 
+### Environment Variables
+
+Create a file named `.env.local` in the root of the project with the environment variables as shown below. Replace the placeholder values with your actual configuration:
+
+```env
+NEXT_PUBLIC_CONVEX_URL=https://your-convex-app.convex.cloud
+CLERK_FRONTEND_API=your-clerk-frontend-api
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=http://localhost:3000/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=http://localhost:3000/sign-up
+```
+
 ### Running the Development Server
 
 Start the Next.js development server:
