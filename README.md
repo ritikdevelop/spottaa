@@ -17,7 +17,7 @@ Spottaa is a modern event discovery and management platform that allows users to
 
 - Node.js (version 16 or higher recommended)
 - npm (comes with Node.js)
-- A Convex backend account for serverless backend hosting (see Convex documentation)
+- A Convex backend account for serverless backend hosting ((https://docs.convex.dev/quickstart/nextjs))
 
 ### Installation
 
