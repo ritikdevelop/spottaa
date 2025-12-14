@@ -2,7 +2,13 @@
 
 import { useRef } from "react";
 import { useRouter } from "next/navigation";
-import { Calendar, MapPin, Users, ArrowRight, Loader2 } from "lucide-react";
+import { 
+  Calendar, 
+  MapPin, 
+  Users, 
+  ArrowRight, 
+  Loader2 
+} from "lucide-react";
 import { format } from "date-fns";
 import { useConvexQuery } from "@/hooks/use-convex-query";
 import { api } from "@/convex/_generated/api";
